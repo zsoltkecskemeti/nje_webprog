@@ -4,27 +4,26 @@ $pagetitle = array(
 );
 
 $header = array(
-    'imagesource' => '',
+    'imagesource' => 'NFSZK_logo.jpg',
     'imagealt' => 'logo',
 	'title' => ' Equal Opportunities of Persons with Disabilities Non-profit Ltd. ',
-	'motto' => ''
+	'motto' => 'Nemzeti Fogyatékosságügyi- és Szociálpolitikai Központ Közhasznú Nonprofit Kft.'
 );
 
 $footer = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'maker' => 'Kecskeméti Zsolt András (CRQOKX)'
-    'original' => 'https://fszk.hu/'
+    'maker' => 'Kecskeméti Zsolt András (CRQOKX)',
+    'original' => 'https://fszk.hu'
 );
 
 $pages = array(
-	'/' => array('file' => 'home', 'text' => 'Home'),
-	'homepage' => array('file' => 'homepage', 'text' => 'HomePage'),
+	'/' => array('file' => 'homepage', 'text' => 'HomePage'),
 	'contact' => array('file' => 'contact', 'text' => 'Contact'),
 	'articles' => array('file' => 'articles', 'text' => 'Articles'),
     'videos' => array('file' => 'videos', 'text' => 'Videos')
-    'gallery' => array('file' => 'gallery', 'text' => 'Gallery')
+    
 );
 
-
+$error_page = array ('file' => '404', 'text' => 'Page not found!');
 
 ?>
