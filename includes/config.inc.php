@@ -19,6 +19,7 @@ $footer = array(
 $pages = array(
 	'/' => array('file' => 'homepage', 'text' => 'HomePage'),
 	'contact' => array('file' => 'contact', 'text' => 'Contact'),
+    'message' => array('file' => 'message', 'text' => 'Message'),
 	'articles' => array('file' => 'articles', 'text' => 'Articles'),
     'videos' => array('file' => 'videos', 'text' => 'Videos')
     

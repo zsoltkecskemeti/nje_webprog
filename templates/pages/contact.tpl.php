@@ -9,7 +9,7 @@
 
         <div>
         <h1>Contact</h1>
-        <form name="contact" action="?page=contact" onsubmit="return check();" method="post">
+        <form name="contact" action="?page=message" onsubmit="return check();" method="post">
         <div>
             <label><input type="text" id="name" name="name" size="20" maxlength="40">Name (minimum 5 characters): </label>
             <br/>

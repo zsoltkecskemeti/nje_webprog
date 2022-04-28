@@ -4,8 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<title><?= $pagetitle['title'] . ( (isset($pagetitle['motto'])) ? ('|' . $pagetitle['motto']) : '' ) ?></title>
-	<link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
 	<?php if(file_exists('./css/'.$find['file'].'.css')) { ?><link rel="stylesheet" href="./css/<?= $find['file']?>.css" type="text/css"><?php } ?>
 </head>
 
