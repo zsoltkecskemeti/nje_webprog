@@ -1,3 +1,8 @@
+body,button,input,select,textarea
+{font-family:calluna-sans,"Gill Sans",Calibri,"Trebuchet MS",sans-serif
+}
+
+
 img {
     display: block;
     width: 10%;
@@ -34,4 +39,17 @@ footer {
 
 #original {
 color: whitesmoke;
+}
+
+.homepage {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    background-color: whitesmoke;
+}
+
+iframe, video {
+    margin:auto;
+    display:block;
 }

@@ -1,3 +1,5 @@
+<div class="homepage">
+
 <h2>Welcome</h2>
 <p>
 
@@ -26,3 +28,4 @@ The general development framework behind our mission is comprised of the UN Conv
 <li>Eight Points Project Office (The complex innovation of the National Provider Network, Professional Consulting Network and Coordination Center for people with autism – “TÁMOP” Social Renewal Operational Program)</li>
 </ul>
 </p>
+</div>

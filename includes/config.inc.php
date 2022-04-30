@@ -7,7 +7,7 @@ $header = array(
     'imagesource' => 'NFSZK_logo.jpg',
     'imagealt' => 'logo',
 	'title' => ' Equal Opportunities of Persons with Disabilities Non-profit Ltd. ',
-	'motto' => 'Nemzeti Fogyatékosságügyi- és Szociálpolitikai Központ Közhasznú Nonprofit Kft.'
+	'motto' => 'Nemzeti Fogyatékosságügyi- <br>és Szociálpolitikai <br> Központ Közhasznú Nonprofit Kft.'
 );
 
 $footer = array(
@@ -20,7 +20,7 @@ $pages = array(
 	'/' => array('file' => 'homepage', 'text' => 'HomePage'),
 	'contact' => array('file' => 'contact', 'text' => 'Contact'),
     'message' => array('file' => 'message', 'text' => 'Message'),
-	'articles' => array('file' => 'articles', 'text' => 'Articles'),
+	'gallery' => array('file' => 'articles', 'text' => 'Gallery'),
     'videos' => array('file' => 'videos', 'text' => 'Videos')
     
 );

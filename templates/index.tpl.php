@@ -15,7 +15,7 @@
 	<header>
 		<img src="./imgs/<?=$header['imagesource']?>" alt="<?=$header['imagealt']?>">
 		<h1><?= $header['title'] ?></h1>
-		<?php if (isset($header['motto'])) { ?><h3><?= $header['motto'] ?></h3><?php } ?>
+		<?php if (isset($header['motto'])) { ?><h6><?= $header['motto'] ?></h6><?php } ?>
 	</header>
 
     <div id="wrapper">
