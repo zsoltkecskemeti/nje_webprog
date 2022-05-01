@@ -1,3 +1,4 @@
+<div class="homepage">
 <?php if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['textarea'])) { 
     
     echo '<div>';
@@ -31,3 +32,4 @@
     echo "<br />";
     echo "</div>";
 } ?>
+</div>

@@ -1,7 +1,15 @@
-body,button,input,select,textarea
+body, button, input, select, textarea
 {font-family:calluna-sans,"Gill Sans",Calibri,"Trebuchet MS",sans-serif
 }
 
+#site {
+background-color: #0062b0;
+}
+
+#content {
+    margin:0 auto;
+    width: 80%;
+}
 
 img {
     display: block;
@@ -13,7 +21,7 @@ img {
 #nav {
     background: lightgray;
     padding: 5px 0;
-    text-align: center;
+  
 }
 
 nav ul  {
@@ -31,10 +39,36 @@ nav ul a {
     text-transform: uppercase;
 }
 
-footer {
-    background-color: #0062b0;
+nav a:hover {
+    text-decoration: none;
     text-align: center;
-    color: whitesmoke;
+    color: white !important;
+    background-color: #666 !important;
+    transition: 0.9s;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover:after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.nav-menu a:after {
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 250ms;
+}
+
+.active {
+    
+    border-color: dodgerblue !important;
+    background-color: whitesmoke !important;
+    color: black;
+}
+
+footer {
+    background-color: lightgray;
+    color: blue;
+    text-align: center;
+
 }
 
 #original {
